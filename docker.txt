@@ -1,0 +1,18 @@
+first command 
+
+docker build -t mlops_project .
+
+second run command
+
+docker run -p 5000:5000 mlops_project
+
+tag a images
+
+push image to docker hub:- 
+docker push 9960991500/mlops_project:latest
+
+
+
+pull image to docker hub
+docker pull 9960991500/mlops_project
+
